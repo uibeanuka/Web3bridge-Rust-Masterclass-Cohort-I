@@ -1,0 +1,1 @@
+![Image of my working code](submissions/week-1/day-2/Adebara-Olamide/arithmetic/assignmentImg.png)
