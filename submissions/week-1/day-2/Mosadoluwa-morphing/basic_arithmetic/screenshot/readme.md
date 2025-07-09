@@ -2,4 +2,4 @@ Basic Arithmetic
 
 ## Result log
 
-![Arithmetic Output](screenshot/arithmetic logs.png)
+![Arithmetic Log](screenshot/arithmetic_logs.png)
