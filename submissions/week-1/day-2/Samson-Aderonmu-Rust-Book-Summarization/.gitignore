@@ -6,7 +6,6 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-*target/
 
 # Windows
 Thumbs.db
@@ -62,6 +61,7 @@ typings/
 
 # Optional npm cache directory
 .npm
+target/
 
 # Optional eslint cache
 .eslintcache
@@ -117,6 +117,3 @@ typings/
 # Temporary files
 *.tmp
 *.temp 
-
-# target folder
-*target
