@@ -1,1 +1,0 @@
-/Users/Muritadhor/Rust/Web3bridge-Rust-Masterclass-Cohort-I/submissions/week-1/day-2/Muritadhor-Arowolo-Basic-Arithmetic/target/debug/Muritadhor-Arowolo-Basic-Arithmetic: /Users/Muritadhor/Rust/Web3bridge-Rust-Masterclass-Cohort-I/submissions/week-1/day-2/Muritadhor-Arowolo-Basic-Arithmetic/src/main.rs
