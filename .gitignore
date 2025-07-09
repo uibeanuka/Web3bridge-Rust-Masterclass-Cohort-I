@@ -6,6 +6,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+*target/
 
 # Windows
 Thumbs.db
