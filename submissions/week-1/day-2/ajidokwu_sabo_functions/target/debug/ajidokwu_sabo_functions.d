@@ -1,0 +1,1 @@
+/home/ajidokwu/RUST_MASTERCLASS/Web3bridge-Rust-Masterclass-Cohort-I/submissions/week-1/day-2/ajidokwu_sabo_functions/target/debug/ajidokwu_sabo_functions: /home/ajidokwu/RUST_MASTERCLASS/Web3bridge-Rust-Masterclass-Cohort-I/submissions/week-1/day-2/ajidokwu_sabo_functions/src/main.rs
