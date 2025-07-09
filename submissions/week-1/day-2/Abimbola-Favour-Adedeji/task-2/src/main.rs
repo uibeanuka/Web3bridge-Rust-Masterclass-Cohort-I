@@ -20,8 +20,7 @@ fn multiply(a: i32, b: i32) -> i32 {
 
 fn divide(a: i32, b: i32) -> i32 {
     if b == 0 {
-        println!("Error: Division by zero is not allowed.");
-        0
+        panic!("Error: Division by zero is not allowed.")
     } else {
         a / b
     }
