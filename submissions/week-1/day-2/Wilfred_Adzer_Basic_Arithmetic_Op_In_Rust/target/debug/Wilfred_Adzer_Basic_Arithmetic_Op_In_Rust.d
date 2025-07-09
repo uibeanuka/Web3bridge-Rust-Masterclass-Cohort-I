@@ -1,0 +1,1 @@
+/home/wilfred/Documents/Rust_Masterclass/Web3bridge-Rust-Masterclass-Cohort-I/submissions/week-1/day-2/Wilfred_Adzer_Basic_Arithmetic_Op_In_Rust/target/debug/Wilfred_Adzer_Basic_Arithmetic_Op_In_Rust: /home/wilfred/Documents/Rust_Masterclass/Web3bridge-Rust-Masterclass-Cohort-I/submissions/week-1/day-2/Wilfred_Adzer_Basic_Arithmetic_Op_In_Rust/src/main.rs
