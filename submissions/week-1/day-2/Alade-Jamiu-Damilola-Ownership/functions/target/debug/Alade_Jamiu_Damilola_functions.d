@@ -1,0 +1,1 @@
+/Users/macbook/Documents/Web3bridge-Rust-Masterclass-Cohort-I/submissions/week-1/day-2/Alade-Jamiu-Damilola-Ownership/functions/target/debug/Alade_Jamiu_Damilola_functions: /Users/macbook/Documents/Web3bridge-Rust-Masterclass-Cohort-I/submissions/week-1/day-2/Alade-Jamiu-Damilola-Ownership/functions/src/main.rs
