@@ -51,7 +51,7 @@
 
 ### What I Understand
 
->  I haven’t read Chapter 4 yet, so I can’t provide an accurate understanding summary.
+>  I haven’t read Chapter 4 yet
 
 ### What I Don't Understand
 
