@@ -1,5 +1,113 @@
 
 ````markdown
+
+# Chapter 3 – What I Learned: Functions, Comments & Control Flow
+
+##  Functions (My Understanding)
+- I define a function using `fn` and give it a name.
+- Every parameter needs a type - Rust doesn’t guess like some languages.
+- If I want to return something, I use `->` and then the return type.
+- I noticed that if I **don’t** add a semicolon at the end, Rust sees it as the return value .
+
+```rust
+fn multiply(x: i32, y: i32) -> i32 {
+    x * y // returned automatically
+}
+```
+
+---
+
+##  Comments
+
+- Comments in Rust use `//` — same as many other languages.
+
+```rust
+// Calculating the user's total score
+```
+
+---
+
+##  Control Flow (How Rust Makes Decisions)
+
+###  If Statements
+
+- Rust doesn’t allow non-boolean conditions — that keeps things clean.
+- I don’t need parentheses around the `if` condition (unlike other languages).
+- I can use `if`, `else if`, and `else` for branching.
+
+```rust
+if temp > 30 {
+    println!("Hot day");
+} else {
+    println!("Cool weather");
+}
+```
+
+###  If as an Expression
+
+- I can assign a value based on a condition using `if` directly inside a `let`.
+- Both `if` and `else` blocks must return the **same type**.
+
+```rust
+let message = if is_logged_in { "Welcome" } else { "Please login" };
+```
+
+---
+
+##  Loops (Repeating Stuff)
+
+###  loop
+
+- `loop` runs forever unless I use `break`.
+- Useful for retries or waiting for something to happen.
+
+```rust
+loop {
+    println!("Still running...");
+    break;
+}
+```
+
+###  while
+
+- Works like in other languages — keeps running while a condition is true.
+
+```rust
+while count < 3 {
+    println!("Counting...");
+    count += 1;
+}
+```
+
+###  for
+
+- This is my favorite loop so far.
+- Clean, readable, and great for working with ranges and collections.
+- I can also reverse it using `.rev()`.
+
+```rust
+for i in 1..4 {
+    println!("{}", i); // prints 1 to 3
+}
+```
+
+```rust
+for i in (1..4).rev() {
+    println!("{}", i); // prints 3 to 1
+}
+```
+
+---
+
+## My Takeaway
+
+- Rust is strict but smart. I now understand why it forces things like type annotations and booleans in `if`.
+- The little things like returning without `return`, and using `if` in `let` bindings, make writing Rust feel expressive once I get used to it.
+- Control flow in Rust feels safe and readable, which helps me write more predictable logic.
+
+
+
+
 # Chapter 4 Summary - Ownership, Referencingmand slice in Rust
 
 ## Heap vs Stack
