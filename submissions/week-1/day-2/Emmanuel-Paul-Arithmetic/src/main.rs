@@ -24,7 +24,6 @@ fn divide(a: i32, b: i32) -> Option<f32> {
 }
 
 // Entry point of the program. Demonstrates the usage of arithmetic functions.
-// Entry point of the program. Demonstrates the usage of arithmetic functions.
 fn main() {
     let a = 10;
     let b = 5;
