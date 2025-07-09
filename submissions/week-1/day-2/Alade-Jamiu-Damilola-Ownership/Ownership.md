@@ -1,3 +1,12 @@
+### Control Flow: 
+
+- If expressions: Used for conditional branching, with conditions that must evaluate to a boolean. Rust does not implicitly convert non-boolean types to booleans.
+- Loops: Rust has loop (infinite looping until break), while (condition-based looping), and for (iterating over collections). Loops can return values using break with an expression.
+- Loop Labels: You can label loops (e.g., 'outer:) to control nested loop breaks or continues.
+
+
+
+
 ### Ownership governs memory management in Rust. Each value has a single owner, and when the owner goes out of scope, the value is dropped, freeing memory automatically.
 
 ### Stack: Stores fixed-size data (e.g., integers) in a last-in, first-out structure. Fast due to predictable access.
