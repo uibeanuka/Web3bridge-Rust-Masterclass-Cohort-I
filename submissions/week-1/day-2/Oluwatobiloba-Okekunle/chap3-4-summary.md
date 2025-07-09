@@ -5,6 +5,23 @@
 ## Functions
 This introduces the fundamental concept of functions in Rust, highlighting their prevalence and how to declare them using the fn keyword. It explains Rust's snake_case naming convention for functions and variables, and demonstrates how to define and call functions, noting that Rust's compiler is flexible about function definition order. The text then delves into parameters, special variables that allow functions to accept input values, emphasising the mandatory type declaration for each parameter. Finally, it differentiates between statements, which perform actions without returning a value, and expressions, which evaluate to a value, a crucial distinction in Rust's expression-based design, culminating in an explanation of how functions return values – typically the result of their final expression.
 
+xpressions do not include ending semicolons. If you add a semicolon to the end of an expression, you turn it into a statement, and it will then not return a value. Keep this in mind as you explore function return values and expressions next.
+
+* Statements are instructions that perform some action and do not return a value.
+* Expressions evaluate to a resultant value. Let’s look at some examples.
+
+```rust
+let y = 6;
+
+let y = {
+    let x = 3;
+    x + 1
+};
+
+println!("The value of y is: {y}");
+```
+
+
 ## Control Flow
 how to direct program execution based on conditions and how to repeat code. It details if expressions for conditional logic, highlighting that their conditions must be Boolean and that if can be used within a let statement to assign a value, provided all possible outcomes are of the same data type. The document then explores different loop constructs: the loop keyword for indefinite repetition, while for conditional iteration, and for for safely and concisely iterating over collections, which is presented as the most idiomatic and safest looping method in Rust. Overall, the text serves as a foundational guide to these essential programming concepts within the Rust ecosystem.
 
