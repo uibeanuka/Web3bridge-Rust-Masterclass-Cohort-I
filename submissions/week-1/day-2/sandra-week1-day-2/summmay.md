@@ -2,24 +2,7 @@
 
 #### Solution
 
-##### Chapter 2
-
-**I was able to understand the following from the remaining part of chapter 2**
-
-- **Bringing in dependencies: std::io, rand, and std::cmp::Ordering**
-- **Reading user input with io::stdin().read_line(&mut guess) and handling potential errors using .expect()**
-- **Converting the input string to a number using .trim().parse(), matching on Ok(num) or Err(\_)**
-- **Using match guess.cmp(&secret_number) to compare guesses and give feedback (Less, Greater, Equal)**
-- **I was also able to understand methods, and external crates at a high level**
-- **in Summmary I able to understand basic I/O, error handling (Result), conditionals (match), loops, and modular project organization**
-
 ##### Chapter 3
-
-###### Function Declaration & Execution in Rust
-
-- **Defined using the `fn` keyword**
-- **Reading user input with io::stdin().read_line(&mut guess) and handling potential errors using .expect()**
-- **How Function Parameters must have explicitly declared types**
 
 ###### Control flow
 
@@ -27,6 +10,14 @@
 - **how to use the three main Rust loop types .while (conditional), and for (iterates over collections or ranges).**
 - **How Function Parameters must have explicitly declared types.**
 - **How and when to use the for loop**
+
+##### Chapter 4
+
+###### Ownership,Borrowing & Referencing, and Slice type in Rust
+
+- **I Understandstood that ownership is a set of rules that govern how a Rust program manages memory.**
+- **The main goal of ownership in rust is to minimize unexpected updates to data in the memory**
+- **every data is own by a variable in rust and reasssigning their values to another variable moves this value into the new variable and makes the old value inaccessible**
 
 #### Task 2: Basic Arithmetic in Rust
 
