@@ -1,6 +1,6 @@
 What i understood from chapter 2 and 3 from rust official book 
 
-Chapter 2
+<!-- Chapter 2
 1- I understood the importance of all the library imported in the     code base and how they were been used in different 
 ![alt text](image.png)
 
@@ -15,7 +15,7 @@ use std::cmp::Ordering; - To compare the user's guess with the secret number.
 i was able to understand how error handling work by using the .expect() which throw back a clear custom error message
 
 
-so in all i learnt about library usage, error handling and also how expression works using loop and also about the break keyword
+so in all i learnt about library usage, error handling and also how expression works using loop and also about the break keyword -->
 
 
 
@@ -34,3 +34,19 @@ the compound type iclude tuples and arrays
 
 5- i also learnt about comments and control flow
 the if statement, else if statement, loops
+
+CHAPTER 4
+1- bascially rust has no garbage collector it use heap and stack memory
+2- At compile time what is stored on the Stack are known values and have a fixed size while what is stored on the heap dont have a known valueor a fixed size at compile time
+
+3-i also leearnt about the basic rule of ownership
+
+4- I also learnt about referencing. this is when u can borrow a value without taking ownership of the value using the &
+
+5- Slices are a reference to a contiguous sequence of elements in a collection, allowing you to work with parts of collections without taking ownership
+
+
+THINGS I DONT UNDERSTAND YET ALOT BUT I HOPE WE WILL DISCUSS IT IN CLASS TODAY
+
+
+
