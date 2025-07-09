@@ -44,6 +44,76 @@ functions are reusable lines of instructions to perform specific task. In rust, 
 The chapter 2 shows us about how to create a cargo project and also give us introduction to how rust works and the literals. The chapter 2 opens us to the rust library of the input and output and how we can interact with a project using the cli. The chapter 2 also introduces us to the Package manager the Cargo.toml where we have us import other crates into our project for use.
 
 ---
+# Chapter 4:
+
+Ownership in Rust is a really interesting topic. Unlike many other programming languages that use the garbage collector, Rust manages memory using the concept of ownership.  
+I can confidently say while other languages are either pass by value or reference, Rust is pass by move.
+
+---
+
+There are basically three rules every developer needs to know when it comes to understanding Rust ownership:
+
+1. Every value must have an owner  
+
+```rust
+let s: String = String::from("hello there");
+````
+
+In the above code, the variable `s` is the owner here.
+
+---
+
+2. There must be only one owner at a time
+
+```rust
+let s: String = String::from("hello there");
+let another_ex: String = s;
+```
+
+In the above example, when I try to call the variable `s`, I get an error that the variable `s` has been previously moved.
+
+---
+
+Here I’d move to Borrowing and Referencing.
+There are two rules we have to know when borrowing:
+
+1. A reference must always be valid
+2. There can only be one mutable reference and many other immutable references
+
+```rust
+fn main() {
+    let s = String::from("here is a string");
+
+    // a value can be borrowed multiple times
+    borrow(&s);
+    borrow(&s);
+    borrow(&s);
+
+    // when the value is moved it can neither be borrowed nor moved again
+    moved(s);
+    // panic here
+    // borrow(&s);
+
+    // panic occurs
+    // moved(s);
+}
+
+fn borrow(s: &String) {
+    println!("{}", s)
+}
+
+fn moved(s: String) {
+    println!("{} , {}", s.len(), s.capacity())
+}
+```
+
+---
+
+3. When the owner goes out of scope, the value is dropped.
+   Here we get to understand the beauty of how Rust manages the memory under the hood unlike the garbage collector languages which after a while does its own cleanup.
+
+---
+
 
 ### ❓ What I do not understand
 
@@ -54,3 +124,7 @@ while reading this chapter, in the function sub topic, I learnt about Statement 
 #### Chapter 2:
 
 while studying further, I came across Ok and Err variants and could not figure why there are in the control flow.
+
+#### Chapter 4:
+
+I read about the stack and heap memory, I came across pointers and references then I want to know why is the capacity needed, is it for it not to go beyond the said capacity and since the capacity is stated why is it in the heap memory?
