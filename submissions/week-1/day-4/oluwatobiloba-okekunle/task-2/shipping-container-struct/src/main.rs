@@ -64,4 +64,44 @@ fn main() {
     );
 
     my_box.display_characteristics();
+
+    let my_box = ShippingBox::new(
+        20.0,
+        15.0,
+        10.0,
+        5.5,
+        BoxColor::Black,
+    );
+
+    my_box.display_characteristics();
+
+    let my_box = ShippingBox::new(
+        10.0,
+        15.0,
+        20.0,
+        4.5,
+        BoxColor::Blue,
+    );
+
+    my_box.display_characteristics();
+
+    let my_box = ShippingBox::new(
+        10.0,
+        15.0,
+        20.0,
+        4.5,
+        BoxColor::White,
+    );
+
+    my_box.display_characteristics();
+
+    let my_box = ShippingBox::new(
+        10.0,
+        15.0,
+        20.0,
+        4.5,
+        BoxColor::Black,
+    );
+
+    my_box.display_characteristics();
 }
