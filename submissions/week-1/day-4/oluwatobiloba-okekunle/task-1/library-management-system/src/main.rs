@@ -41,4 +41,27 @@ fn main() {
     display_quantity(&book);
     display_id(&book);
     display_type(&book);
+
+    let magazine = LibraryItem {
+        quantity: 10,
+        id: 1002,
+        item_type: ItemType::Magazine,
+    };
+
+    println!("Library Item Information:");
+    display_quantity(&magazine);
+    display_id(&magazine);
+    display_type(&magazine);
+
+
+    let fiction = LibraryItem {
+        quantity: 20,
+        id: 1003,
+        item_type: ItemType::Fiction,
+    };
+
+    println!("Library Item Information:");
+    display_quantity(&fiction);
+    display_id(&fiction);
+    display_type(&fiction);
 }
